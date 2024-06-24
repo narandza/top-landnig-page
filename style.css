@@ -21,7 +21,6 @@ footer {
 }
 
 header,
-main,
 footer {
   padding: 0 15%;
 }
@@ -105,9 +104,14 @@ footer {
 
 /* Main */
 
+.content-cards,
+.content-quote {
+  height: 70vh;
+  padding: 0 15%;
+}
+
 .content-cards {
   text-align: center;
-  height: 70vh;
 }
 
 .cards-heading {
@@ -141,4 +145,25 @@ footer {
 .card-subtext {
   margin-top: 10px;
   color: #1f2937;
+}
+
+.content-quote {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #1f2937;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+}
+
+.author {
+  margin-top: 10px;
+  align-self: flex-end;
+  font-size: 24px;
+  font-weight: 700;
 }
