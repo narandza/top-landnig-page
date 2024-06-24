@@ -13,6 +13,8 @@ ul {
   list-style-type: none;
 }
 
+/* Header */
+
 header,
 footer {
   background-color: #1f2937;
@@ -86,4 +88,17 @@ nav {
 
 .hero-image {
   width: 500px;
+}
+
+/* Footer */
+
+footer {
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.copyright {
+  color: #e5e7eb;
+  font-size: 18px;
 }
